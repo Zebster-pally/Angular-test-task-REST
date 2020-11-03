@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <input style="margin-bottom: 20px;" type="text" [(ngModel)]="product.id" placeholder="Id">
+  <br>
+  <input style="margin-bottom: 20px;" type="text" [(ngModel)]="product.name" placeholder="Name">
+  <br>
+  <input style="margin-bottom: 20px;" type="text" [(ngModel)]="product.price" placeholder="Price">
+  <br>
+  <button style="margin-bottom: 20px;" (click)="add()">Add this one</button>
+  <br>
+  <button routerLink="/">Back to list</button>
+</div>
